@@ -3,43 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Opdracht_3.2</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="Results.html" method="post"></form>
-    <form>
-        <section>
-            <label for="Fname">Voornaam:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Achternaam:</label><br>
-        <input type="text" id="lname" name="lname">
-        </section>
-    </section>
-    <section>
-        <label for="gender">Selecteer uw Geslacht</label>
-        <select id="gender" name="Geslacht">
-            <option value="male">De heer</option>
-            <option value="female">Mevrouw</option>
-            <option value="other">Anders</option>
-        </select>
-    </section>
-    
-    <section>
-        <label for="text-input">Straat en Huisnummer</label>
-        <input type="text" id="text-input" name="Straat en Huisnummer">
-    </section>
+    <main>
+        <body>
+            <form action="Results.html" method="post"></form>
+            <form>
+                <section>
+                    <label for="Fname">Voornaam:</label>
+                <input type="text" id="fname" name="fname" pattern="[A-Za-z]+" title="Voer alleen letters in" required >
+                </section>
 
-    <section>
-        <label for="postal-code">Postcode</label>
-        <input type="text" id="postal-code" name="PostCode">
-    </section>
-    <section>
-        <label for="State">Stad</label>
-        <input type="text" id="text-input" name="PostCode">
-    </section>
-       
-    </form
+                <section>
+                    <label for="lname">Achternaam:</label>
+                    <input type="text" id="lname" name="lname" pattern="[A-Za-z]+" title="Voer alleen letters in" required>
+                </section>
+
+                <section>
+                    <label for="E-mail">E-mail</label>
+                    <input type="email" name="Email" id="Email">
+                    </section>
+                <section>
+
+                    <section>
+                        <label for="Wachtwoord">Wachtwoord</label>
+                        <input type="password" name="Wachtwoord" id="Wachtwoord">
+                    </section>
+
+                <label for="gender">Selecteer uw Geslacht</label>
+                <select id="gender" name="Geslacht">
+                    <option value="male">De heer</option>
+                    <option value="female">Mevrouw</option>
+                    <option value="other">Anders</option>
+                </select>
+            </section>
+
+            <section>
+                <label for="text-input">Straat en Huisnummer</label>
+                <input type="text" id="text-input" name="Straat en Huisnummer">
+            </section>
+        
+            <section>
+                <label for="postal-code">Postcode</label>
+                <input type="text" id="postal-code" name="Postcode">
+            </section>
+            <section>
+                <label for="State">Stad</label>
+                <input type="text" id="text-input" name="Postcode">
+            </section>
+
+            <section>
+                <label for="country">Land:</label>
+                <input type="text" id="country" name="Land">
+            </section>
+
+            <section>
+                <label for="bsn">BSN-nummer:</label>
+                <input type="text" id="bsn" name="bsn" minlength="9" maxlength="9">
+            </section>
+            
+            <section>
+                <label for="Vakanie-land">Kies uw vakantie land</label>
+                <select id="Vakantieland" name="Vakantie land">
+                    <option value="Turkije">Turkije</option>
+                    <option value="Engeland">Engeland</option>
+                    <option value="other">Amerika</option>
+                </select>
+            </section>
+
+            <section>
+                <label for="Vertrek">Datum van vertrek</label>
+                <input type="date" name="Date" id="Date" min="2023-09-14" >
+            </section>
+
+            <section>
+                <label for="Vertrek">Datum van aankomst</label>
+                <input type="date" name="Date" id="Date" min="2023-09-15" >
+            </section>
+
+            <section>
+                <label for="Aantal-reisgenoten">Aantal reisgenoten</label>
+                <input type="number" id="Reisgenoten" min="1" max="4" required>
+            </section>
+
     
+
+            <section>
+                <button>Boek nu</button>
+            </section>
+        </form>
+    </main>
 </body>
 </html>
