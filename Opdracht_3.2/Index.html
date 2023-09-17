@@ -9,54 +9,53 @@
 <body>
     <main>
         <body>
-            <form action="Results.html" method="post"></form>
-            <form>
+            <form action="Results.html" method="post">
                 <section>
-                    <label for="Fname">Voornaam:</label>
-                <input type="text" id="fname" name="fname" pattern="[A-Za-z]+" title="Voer alleen letters in" required >
+                    <label for="Fname">First mame:</label>
+                <input type="text" id="fname" name="fname" pattern="[A-Za-z]+" title="Voer alleen letters in" required>
                 </section>
 
                 <section>
-                    <label for="lname">Achternaam:</label>
-                    <input type="text" id="lname" name="lname" pattern="[A-Za-z]+" title="Voer alleen letters in" required>
+                    <label for="lname">Surname:</label>
+                    <input type="text" id="lname" name="lname" pattern="[A-Za-z]+" title="Enter letters only" required>
                 </section>
 
                 <section>
-                    <label for="E-mail">E-mail</label>
+                    <label for="E-mail">E-mail:</label>
                     <input type="email" name="Email" id="Email">
                     </section>
                 <section>
 
                     <section>
-                        <label for="Wachtwoord">Wachtwoord</label>
-                        <input type="password" name="Wachtwoord" id="Wachtwoord">
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password">
                     </section>
 
-                <label for="gender">Selecteer uw Geslacht</label>
-                <select id="gender" name="Geslacht">
-                    <option value="male">De heer</option>
-                    <option value="female">Mevrouw</option>
-                    <option value="other">Anders</option>
+                <label for="gender">Select your gender:</label>
+                <select id="gender" name="Gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">other</option>
                 </select>
             </section>
 
             <section>
-                <label for="text-input">Straat en Huisnummer</label>
-                <input type="text" id="text-input" name="Straat en Huisnummer">
+                <label for="text-input">Street and house number:</label>
+                <input type="text" id="text-input" name="Street and house number">
             </section>
         
             <section>
-                <label for="postal-code">Postcode</label>
-                <input type="text" id="postal-code" name="Postcode">
+                <label for="postal-code">Postal code:</label>
+                <input type="text" id="postal-code" name="Postal code">
             </section>
             <section>
-                <label for="State">Stad</label>
+                <label for="State">State:</label>
                 <input type="text" id="text-input" name="Postcode">
             </section>
 
             <section>
-                <label for="country">Land:</label>
-                <input type="text" id="country" name="Land">
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country">
             </section>
 
             <section>
@@ -65,31 +64,31 @@
             </section>
             
             <section>
-                <label for="Vakanie-land">Kies uw vakantie land</label>
-                <select id="Vakantieland" name="Vakantie land">
-                    <option value="Turkije">Turkije</option>
-                    <option value="Engeland">Engeland</option>
-                    <option value="other">Amerika</option>
+                <label for="country">Choose your holiday:</label>
+                <select id="country" name="country">
+                    <option value="turkey">Turkey</option>
+                    <option value="england">Engeland</option>
+                    <option value="america">America</option>
                 </select>
             </section>
 
             <section>
-                <label for="Vertrek">Datum van vertrek</label>
+                <label for="departure">Date of departure:</label>
                 <input type="date" name="Date" id="Date" min="2023-09-14" >
             </section>
 
             <section>
-                <label for="Vertrek">Datum van aankomst</label>
+                <label for="arrival">Date of arrival:</label>
                 <input type="date" name="Date" id="Date" min="2023-09-15" >
             </section>
 
             <section>
-                <label for="Aantal-reisgenoten">Aantal reisgenoten</label>
-                <input type="number" id="Reisgenoten" min="1" max="4" required>
+                <label for="companions">Number of traveling companions:</label>
+                <input type="number" id="companions" min="1" max="4" required>
             </section>
 
             <section>
-                <button>Boek nu</button>
+                <button>Book now</button>
             </section>
         </form>
     </main>
