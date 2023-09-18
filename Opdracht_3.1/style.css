@@ -38,3 +38,7 @@ nav img {
   width: 5vw;
 }
 
+.background{
+  background-image:url("img/background.jpeg");
+  background-repeat: no-repeat;
+}
