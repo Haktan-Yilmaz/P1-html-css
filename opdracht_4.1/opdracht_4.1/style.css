@@ -1,0 +1,35 @@
+.h1-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
+    font-style: italic;
+    }
+
+h2{
+    font-size: 20px;
+    color: rgb(0, 0, 255);
+    font-weight: bold;
+}
+
+h3{
+    font-size: 16px;
+    color: teal;
+    font-weight: bold;
+}
+
+p{
+  color: rgb(77, 77, 77);
+}
+
+.first-p{
+    font-weight: bold;
+    color: rgb(77, 77, 77);
+}
+
+a{
+    color: rgb(138, 43, 226);
+}
+
+.link{
+    text-decoration: none;
+}
