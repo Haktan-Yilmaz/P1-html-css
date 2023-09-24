@@ -35,15 +35,17 @@ a{
 }
 
 img{
-    width: 50%;
+    width: 50vw
 }
 
 header{
     width: 100%;
-    height: 50%;
+    height: 100%;
     text-align: center;
     background-image: url(img/images.jpg);
+    background-repeat: no-repeat; 
     background-position: center;
+    background-size: 97vw;
 }
 
 .first-p{
