@@ -63,14 +63,18 @@ nav img {
 }
 
 footer {
-  display: flex;
+  position: fixed; 
+  bottom: 0;
+  left: 0;
   width: 100%;
-  padding: 2rem;
-  min-height: 10vh;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: auto;
-  background: #00a8c7;
-  justify-content: space-between;
+  background-color: #00a8c7;
   color: white;
+  padding: 10px;
+  text-align: left;
+  margin: 0;
+}
+
+
+html{
+  font-family: "goldman";
 }
