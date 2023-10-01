@@ -11,6 +11,7 @@ body {
 }
 
 nav {
+  position: fixed;
   display: flex;
   width: 100%;
   padding: 2rem;
@@ -20,7 +21,6 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
-  position: fixed;
 }
 nav ul {
   display: flex;
@@ -50,8 +50,10 @@ nav img {
 }
 
 .h1-title{
-  font-weight: bold;
-  color: white;
+  text-align: center;
+  font-size: 50px;
+  width: 100%;
+  padding-top: 3em; 
 }
 
 .h1-title-white{
@@ -73,8 +75,39 @@ footer{
   padding: 10px;
   text-align: left;
   margin: 0;
+  text-align: center;
 }
 
 html{
   font-family: "goldman";
 }
+
+.html-css-text{
+  margin-right: 10%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 15px;
+}
+
+.img-html-css{
+  float: left;
+  width: 33%;
+  height: 33%;
+  padding-right: 0px;
+  margin-left: 10%;;
+}
+
+.all-html-css{
+  margin-left: 50%;
+  margin-top: 5%;
+ 
+}
+
+.title{
+  text-align: center;
+  font-size: 50px;
+  width: 100%;
+  padding-top: 3em;
+}
+
+.j
