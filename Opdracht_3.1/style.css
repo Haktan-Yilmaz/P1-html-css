@@ -55,9 +55,21 @@ nav img {
   width: 100%;
   padding-top: 3em; 
 }
+.h1-title-first{
+  text-align: center;
+  font-size: 50px;
+  width: 100%;
+  padding-top: 3em; 
+  color: white;
+}
 
 .h1-title-white{
   font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  width: 100%;
+  padding-top: 3em; 
   color: white;
 }
 
@@ -110,4 +122,41 @@ html{
   padding-top: 3em;
 }
 
-.j
+.all-php {
+  margin-left: 50%;
+  margin-top: 5% ;
+}
+
+.php-text {
+  margin-right: 10%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 13px;
+}
+
+.img-php {
+  float: left;
+  width: 33%;
+  height: 33%;
+  padding-right: 0px;
+  margin-left: 10%;;
+}
+
+.img-sql {
+  float: right;
+  width: 33%;
+  height: 33%;
+  margin-right: 15%;
+}
+
+.sql-all {
+  color: white;
+  font-size: 15px;
+}
+
+.sql-all {
+  padding-top: 50px;
+  padding-left: 159px;
+  padding-right: 700px;
+  padding-bottom: 50px;
+}
