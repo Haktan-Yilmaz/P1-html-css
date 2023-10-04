@@ -168,3 +168,57 @@ html{
   padding-right: 700px;
   padding-bottom: 50px;
 }
+
+form {
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-right-width: 2px;
+  border-right-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-left-width: 2px;
+  border-left-style: solid;
+  padding-top: 5px;
+  padding-left: 550px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  margin-top: 10PX;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+.contact {
+  width: 150px;
+  margin: 2px auto;
+} 
+
+.dropdown-content {
+  display: none;
+  position: absolute ;
+  background-color: white;
+  min-width: 20vw;
+  z-index: 1;
+ 
+}
+
+.dropdown-content a {
+  color: #00a8c7;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+  display: block;
+  color: #00a8c7;
+  background-color: white;
+}
+
+.dropdownitem:hover {
+  background-color: #E9E9E9;
+}
+
