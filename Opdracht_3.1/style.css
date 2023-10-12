@@ -9,12 +9,12 @@ html {
 body {
   font-family: "Goldman", cursive;
 }
-.header { position: absolute;
+.h1-title-first { 
+  position: absolute;
   text-align: center;
   font-size: 50px;
-  top: 50%;
-  color: white;
-  width: 100%;    
+  top: 40%;
+  color: white;   
 }
 
 nav {
