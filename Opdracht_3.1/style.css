@@ -256,7 +256,7 @@ form {
 } 
 
 form {
-  borderwidth: 2px;
+  border-width: 2px;
   border-style:solid ;
   padding: 5px 550px;
   margin: 10PX 10%;
